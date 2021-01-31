@@ -1,4 +1,4 @@
-import shopCategoriesInitialState from "./ShopCategories.initialstate";
+import shopCategoriesInitialState from "./ShopCategories.InitialState";
 
 export default function shopCategoriesReducer(
   state = shopCategoriesInitialState,
