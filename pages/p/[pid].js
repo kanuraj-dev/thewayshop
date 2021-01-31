@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const { pid } = context.query;
+  const { pid } = context.params;
   return {
     props: { pid },
   };
